@@ -6,9 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class FraudApplication {
+public class NotificationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FraudApplication.class , args);
+        SpringApplication.run(NotificationApplication.class , args);
     }
 }
